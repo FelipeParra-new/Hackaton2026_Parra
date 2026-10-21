@@ -1,0 +1,40 @@
+Conventions,G,BADC-CSV,1
+title,G,Earths Energy Imbalance
+last_revised_date,G,2026-03-20
+date_valid,G,2026-03-20
+feature_type,G,area average
+creator,G,WMO
+source,G,Produced by climind version 1.3.0
+observation_station,G,derived data
+location,G,90.,-180.,-90.,180.
+activity,G,WMO
+history,G,"Data set created from file ['EEI_timeseries.csv'] downloaded from [''] at ['2026-03-17 14:10:00']"
+reference,G,"Loeb, N. G., Johnson, G. C., Thorsen, T. J., Lyman, J. M., Rose, F. G., & Kato, S. (2021). Satellite and Ocean Data Reveal Marked Increase in Earth’s Heating Rate. Geophysical Research Letters, 48(13), e2021GL093047. https://doi.org/10.1029/2021GL093047"
+rights,G,TBD
+comments,G,Data produced by climind version 1.3.0
+comments,G,Format description https://help.ceda.ac.uk/article/105-badc-csv
+comments,G,"Original data acknowledgement: "
+long_name,time,time,days since 1800-01-01 00:00:00.0
+type,time,int
+long_name,year,year,1
+type,year,int
+long_name,data,eei,wm2
+type,data,float
+long_name,uncertainty,eei uncertainty,wm2
+type,uncertainty,float
+coordinate_variable,time,t
+data
+time,year,data,uncertainty
+78162,2014,0.3235,0.1000
+78527,2015,0.3698,0.1000
+78892,2016,0.3967,0.1000
+79258,2017,0.4507,0.1000
+79623,2018,0.5094,0.1000
+79988,2019,0.5532,0.1000
+80353,2020,0.5745,0.1000
+80719,2021,0.6210,0.1000
+81084,2022,0.7080,0.1000
+81449,2023,0.7509,0.1000
+81814,2024,0.7451,0.1000
+82180,2025,0.8358,0.1000
+end data
